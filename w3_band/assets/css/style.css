@@ -1,4 +1,4 @@
-/* Reset CSS */
+ /* Reset CSS */
 * {
     padding: 0;
     margin: 0;
@@ -194,6 +194,7 @@ html{
 #slider .text-discription{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content{
@@ -353,7 +354,7 @@ html{
 }
 
 .contact-form {
-    font-size: 15px;
+    font-size: 16px;
 }
 
  .form-control {
@@ -363,6 +364,10 @@ html{
     outline: none;
 }
 
+.contact-submit-btn {
+    font-size: 16px;
+}
+
 .contact-form .form-sbumit-btn{
     background-color: #000;
     color: #fff;
@@ -370,6 +375,8 @@ html{
     padding: 10px 16px;
     float: right;
     cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .form-sbumit-btn:hover{
